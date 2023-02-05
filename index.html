@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYAIR</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@400;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@200;300;400;500;600;800&display=swap">
+</head>
+
+<body>
+    <!-- Start Settings Box -->
+    <div class="settings-box">
+        <div class="toggle-settings">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </div>
+        <div class="settings-container">
+            <div class="colors-options">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#912908"></li>
+                    <li data-color="#E91E63"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#03A9F4"></li>
+                    <li data-color="#4CAF50"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <div class="background-options">
+                    <h4>Random Backgrounds</h4>
+                    <div class="random-backgrounds">
+                        <span class="yes active" data-background="yes">Yes</span>
+                        <span class="no" data-background="no">No</span>
+                    </div>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Show Bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display="show">Show</span>
+                    <span class="no" data-display="Hide">Hide</span>
+                </div>
+            </div>
+            <button class="reset-option">
+                Reset Options
+            </button>
+        </div>
+    </div>
+    <!-- End Settings Box -->
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip">
+                About Us
+            </div>
+        </div>
+        <div class="bullet" data-section=".flights">
+            <div class="tooltip">
+                Our Flights
+            </div>
+        </div>
+        <div class="bullet" data-section=".our-airplane">
+            <div class="tooltip">
+                Our Airplane
+            </div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">
+                Time Line
+            </div>
+        </div>
+        <div class="bullet" data-section=".feartures">
+            <div class="tooltip">
+                Our Features
+            </div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">
+                Testimonials
+            </div>
+        </div>
+        <div class="bullet" data-section=".contact">
+            <div class="tooltip">
+                Contact
+            </div>
+        </div>
+    </div>
+    <!-- End Nav Bullets -->
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">SYAIR</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#" data-section=".about-us">About</a></li>
+                        <li><a href="#" data-section=".flights">Flights</a></li>
+                        <li><a href="#" data-section=".our-airplane">Airplane</a></li>
+                        <li><a href="#" data-section=".feartures">Features</a></li>
+                        <li><a href="#" data-section=".timeline">Time Line</a></li>
+                        <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+                        <li><a href="#" data-section=".contact">Contact</a></li>
+                    </ul>
+                </div>
+                <button class="toggle-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <div class="intoduction-text">
+            <h1>We Are <span>Creative</span>Agency</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam nihil accusantium maxime impedit nemo</p>
+        </div>
+    </div>
+    <!-- End Landing Page -->
+    <!-- Start About Us -->
+    <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate in cumque culpa officiis
+                    dolore
+                    incidunt distinctio maiores, non iure optio dolorum nisi unde autem velit ex placeat vitae dolores!
+                </p>
+            </div>
+            <div class="img-box">
+                <img src="imags/about.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- End About Us -->
+    <!-- Start Our flights -->
+    <div class="flights">
+        <div class="container">
+            <h2>Our Flights</h2>
+            <div class="flight-box">
+                <div class="flight-name" data-progress="30%">Emirates</div>
+                <div class="flight-progress">
+                    <span></span>
+                </div>
+            </div>
+            <div class="flight-box">
+                <div class="flight-name" data-progress="15%">Syria</div>
+                <div class="flight-progress">
+                    <span></span>
+                </div>
+            </div>
+            <div class="flight-box">
+                <div class="flight-name" data-progress="50%">Saudi Arabia</div>
+                <div class="flight-progress">
+                    <span></span>
+                </div>
+            </div>
+            <div class="flight-box">
+                <div class="flight-name" data-progress="5%">America</div>
+                <div class="flight-progress">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Our flights -->
+    <!-- Start Our airplane -->
+    <div class="our-airplane">
+        <div class="container">
+            <h2>Our Airplane</h2>
+            <div class="images-box">
+                <img src="imags/1.jpg" alt="Image One">
+                <img src="imags/2.jpg" alt="Image Two">
+                <img src="imags/3.jpg" alt="Image Three">
+                <img src="imags/4.jpg" alt="Image Four">
+                <img src="imags/5.jpg" alt="Image Five">
+                <img src="imags/6.jpg" alt="">
+                <img src="imags/7.jpg" alt="">
+                <img src="imags/8.jpg" alt="">
+                <img src="imags/9.jpg" alt="">
+                <img src="imags/10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- End Our airplane -->
+    <!-- Start Time Line -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2018</div>
+                <div class="left-box">
+                    <div class="content">
+                        <h3>The Company Started Its First Flight</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore provident ipsam voluptatem
+                            ratione dicta libero velit </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right-box">
+                    <div class="content">
+                        <h3>IFSA Award for Excellent Services and In-Flight Catering Industry Support, San Diego, USA
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore provident ipsam voluptatem
+                            ratione dicta libero velit </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2023</div>
+                <div class="left-box">
+                    <div class="content">
+                        <h3>More Than 554 Flights Completed</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore provident ipsam voluptatem
+                            ratione dicta libero velit </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right-box">
+                    <div class="content">
+                        <h3>IFCA Mercury Support Services Award, London</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore provident ipsam voluptatem
+                            ratione dicta libero velit </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Time Line -->
+    <!-- Start Features -->
+    <div class="feartures">
+        <h2>Our Features</h2>
+        <div class="container">
+            <div class="feat-box">
+                <img src="imags/Icon_1.png" alt="">
+                <h4>Airport Transfer Service</h4>
+                <p>Travelling for Business or Leisure, Airport Lounges are the perfect treat for you and your loved
+                    ones.</p>
+            </div>
+            <div class="feat-box">
+                <img src="imags/Icon_2.png" alt="">
+                <h4>Airport Lounge Service</h4>
+                <p>Travelling for Business or Leisure, Airport Lounges are the perfect treat for you and your loved
+                    ones.</p>
+            </div>
+            <div class="feat-box">
+                <img src="imags/Icon_3.png" alt="">
+                <h4>VIP Services</h4>
+                <p>Travelling for Business or Leisure, Airport Lounges are the perfect treat for you and your loved
+                    ones.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Features -->
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="ts-box">
+                <p>Amazing airplane company I recommend this company</p>
+                <div class="presonal-info">
+                    <img src="imags/test1.png" alt="">
+                    <h4>Mohamad Idrees</h4>
+                    <p>CEO At SySoft</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>I had a very pleasant and safe trip booking through this company</p>
+                <div class="presonal-info">
+                    <img src="imags/test2.png" alt="">
+                    <h4>Tarek Idrees</h4>
+                    <p>CEO At Android</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>A successful company offering many safe travel trips</p>
+                <div class="presonal-info">
+                    <img src="imags/test3.png" alt="">
+                    <h4>Omar Ghazi</h4>
+                    <p>CEO At Dell</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!-- End Testimonials -->
+    <!-- Start Contact Us -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left-contact">
+                    <input type="text" placeholder="Your Name" name="username">
+                    <input type="text" placeholder="Your Phone" name="username">
+                    <input type="email" placeholder="Your Email" name="email">
+                    <input type="text" placeholder="Your Subject" name="subject">
+                </div>
+                <div class="right-contact">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End Contact Us -->
+    <!-- Start Footer -->
+    <div class="footer">Created By Mohamad Idrees</div>
+    <!-- End  Footer -->
+    <script src="js/master.js"></script>
+</body>
+
+</html>
